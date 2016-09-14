@@ -1,0 +1,46 @@
+#!/bin/zsh
+
+# Show Mobiquity logo
+clear
+/Users/jkleinberg/.iterm2/imgcat logo.jpg
+sleep 2
+
+# Show Mobiquity logo in text
+clear
+cat logo.txt
+sleep 2
+
+# Fake prompt
+clear
+echo -n "$> "
+sleep 3
+clear
+echo -n "$> m"
+sleep .2
+clear
+echo -n "$> md"
+sleep .2
+clear
+echo -n "$> mdp"
+sleep .2
+clear
+echo -n "$> mdp "
+sleep .2
+clear
+echo -n "$> mdp R"
+sleep .3
+clear
+echo -n "$> mdp README.md"
+sleep 1
+clear
+
+# Start presentation
+mdp README.md
+
+# The end
+clear
+echo "Thank you.
+" | less
+
+# Clean up
+clear
