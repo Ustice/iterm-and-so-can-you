@@ -1,0 +1,27 @@
+{
+  "name": "iterm-and-so-can-you",
+  "version": "0.0.0",
+  "description": "A presentation on some of the cool customizations that I have made to my terminal experience.",
+  "main": "start",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ustice/iterm-and-so-can-you.git"
+  },
+  "keywords": [
+    "presentation",
+    "shell",
+    "terminal"
+  ],
+  "author": "Ustice (Jason Kleinberg)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ustice/iterm-and-so-can-you/issues"
+  },
+  "homepage": "https://github.com/Ustice/iterm-and-so-can-you#readme",
+  "dependencies": {
+    "lodash": "^4.15.0"
+  }
+}
