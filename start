@@ -7,7 +7,7 @@ sleep 2
 
 # Show Mobiquity logo in text
 clear
-cat logo.txt
+img2txt.py logo.jpg --ansi --targetAspect=.5 --antialias --maxLen=$(tput cols)
 sleep 2
 
 # Fake prompt
